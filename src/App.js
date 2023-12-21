@@ -3,6 +3,11 @@ import "./App.css";
 import DownloadNow from "./components/DownloadNow";
 import PhonePicture from "./components/PhonePicture";
 import Communities from "./components/Communities";
+import GetDiscavered from './componts/GetDiscavered';
+import Img1 from './componts/Img1.js';
+import VidioCall from './componts/VidoCall.js';
+import Img2 from './componts/Img2.js';
+import "./componts/Component.css";
 
 
 export default function App(){
@@ -18,6 +23,15 @@ export default function App(){
         </Col>
     </Row>
     <Communities/>
+ 
+        <div className="row g-4">
+            <Img1/>
+            <GetDiscavered/> 
+        </div>
+        <div class="row g-4">
+            <VidioCall/>
+            <Img2/>
+        </div> 
     </>
     </Container>
 

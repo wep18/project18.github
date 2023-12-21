@@ -1,64 +1,39 @@
-
-
-.h2{
-    margin-left:20px;
-    margin-top:20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+/*.App {
+  text-align: center;
 }
 
-.h3{
-    margin-left:1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.para3{
-    margin-left:3em;
-    margin-right: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-}
-.div2{
-    background-color: white;
-    margin-top: 10px;
-    margin-right: 3.1em;
-    margin-left:2.2em;
-    border-radius: 20px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.img1{
-    border-radius: 20px;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-
-
-.div3{
-    margin-top: 3em;
-    background-color: white;
-    border-radius: 0.6em;
-    min-height: 15em;
+.App-link {
+  color: #61dafb;
 }
 
-.div31{
-    margin-top: 3em;
-    margin-left:2em;
-    border-radius: 0.6em;
-    min-height:15em;
-    background-color: white;
-    
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.div32{
-    margin-top: 3em;
-    margin-left:2em;
-    margin-right:2.5em;
-    border-radius: 0.6em;
-    min-height:15em;
-    background-color: white;
-    
-}
-
-.img3{
-    margin-left: 1.5em;
-}
+*/
