@@ -1,3 +1,4 @@
+
 import {Col, Row, Container } from "react-bootstrap";
 import "./App.css";
 import DownloadNow from "./components/DownloadNow";
@@ -8,10 +9,13 @@ import Img1 from './componts/Img1.js';
 import VidioCall from './componts/VidoCall.js';
 import Img2 from './componts/Img2.js';
 import "./componts/Component.css";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 export default function App(){
   return(
+    <>
     <Container>
     <>
     <Row>
@@ -34,6 +38,8 @@ export default function App(){
         </div> 
     </>
     </Container>
-
+     <Header/>
+     <Footer/>
+</>
   );
 }
