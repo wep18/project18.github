@@ -1,14 +1,29 @@
-
-import './App.css';
+import {Col, Row, Container } from "react-bootstrap";
+import "./App.css";
+import DownloadNow from "./components/DownloadNow";
+import PhonePicture from "./components/PhonePicture";
+import Communities from "./components/Communities";
 import GetDiscavered from './componts/GetDiscavered';
 import Img1 from './componts/Img1.js';
 import VidioCall from './componts/VidoCall.js';
 import Img2 from './componts/Img2.js';
-import "./componts/Component.css"
-function App() {
-  return (
-    <body>
-    <div className="container">
+import "./componts/Component.css";
+
+
+export default function App(){
+  return(
+    <Container>
+    <>
+    <Row>
+    <Col>
+    <DownloadNow/>
+        </Col>
+        <Col xxl={8}>
+    <PhonePicture/>
+        </Col>
+    </Row>
+    <Communities/>
+ 
         <div className="row g-4">
             <Img1/>
             <GetDiscavered/> 
@@ -16,10 +31,9 @@ function App() {
         <div class="row g-4">
             <VidioCall/>
             <Img2/>
-        </div>
-    </div>
-   </body>
+        </div> 
+    </>
+    </Container>
+
   );
 }
-
-export default App;
