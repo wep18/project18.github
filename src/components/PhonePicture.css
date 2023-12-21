@@ -1,0 +1,25 @@
+
+.phone-div-img{
+    background-color: rgba(255,255,255,255);
+    margin-top: 0.625em;
+    margin-right: 3.1em;
+    margin-left: 1.4em;
+    border-radius: 0.7em;
+}
+
+.popup-img{
+    margin-left: 2.9em;
+}
+
+.phone-pic-desc {
+    color: gray;
+    font-size: 1rem;
+    margin-left: 3.8em;
+}
+
+.built-header{
+    margin-left:2.5em;
+    margin-top:1.125em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
