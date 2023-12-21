@@ -28,6 +28,8 @@
 }
 .copyright {
   text-align: right;
+  color: #676A79;
+  text-decoration: none;
 }
 a{
   text-decoration: none;
@@ -41,6 +43,7 @@ a{
 
 .footer-listings{
   color: #676A79;
+  text-decoration: none;
 }
 
 .footer-words{ 

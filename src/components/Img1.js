@@ -1,4 +1,4 @@
-import Imgg from "../images/img1.jpg";
+import Imgg from "../assets/congratulations.jpg";
 import "./Component.css"
 
 const Img1 = () => {

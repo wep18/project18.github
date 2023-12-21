@@ -1,9 +1,9 @@
 import './Footer.css';
-import WebImageLogo from './web.png';
-import logo from './windows.png';
-import er from './apple-logo.png';
-import aa from './smartphone.png';
-import MegaPhone from './megaphone.png';
+import WebImageLogo from '../assets/web.png';
+import logo from '../assets/windows.png';
+import er from '../assets/apple-logo.png';
+import aa from '../assets/smartphone.png';
+import MegaPhone from '../assets/megaphone.png';
 
 function Footer() {
   return (
@@ -58,10 +58,6 @@ function Footer() {
           <span className="word-spacing">
             {" "}
             <a className='footer-listings' href="support">Support</a>
-          </span>
-          <span className="word-spacing">
-            {" "}
-            <a className='footer-listings' href="docs">Docs</a>
           </span>
           <span className="word-spacing">
             {" "}

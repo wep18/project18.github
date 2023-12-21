@@ -1,4 +1,4 @@
-import Imgg2 from "../images/img2.jpg";
+import Imgg2 from "../assets/facetime.jpg";
 import "./Component.css"
 
 const Img2 = () => {

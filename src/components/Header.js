@@ -1,6 +1,6 @@
  import './Header.css';
- import img from './img.jpg';
- import img2 from './img2.jpg'
+ import img from '../assets/img.jpg';
+ import img2 from '../assets/img2.jpg'
  const Header =() => {
     return (
       <div>

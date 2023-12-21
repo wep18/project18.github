@@ -1,6 +1,6 @@
 import "./Component.css"
-import Imgg3 from "../images/img3.jpg";
-import Imgg4 from "../images/img4.jpg";
+import Imgg3 from "../assets/img3.jpg";
+import Imgg4 from "../assets/img4.jpg";
 const VidioCall = () => {
     return (
     <div className="col-lg-6" id="t2">

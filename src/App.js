@@ -1,16 +1,14 @@
-
-export default App;
 import {Col, Row, Container } from "react-bootstrap";
 import "./App.css";
-import FirstPhoto from './component/FirstPhoto';
+import FirstPhoto from './components/FirstPhoto.js';
 import DownloadNow from "./components/DownloadNow";
 import PhonePicture from "./components/PhonePicture";
 import Communities from "./components/Communities";
-import GetDiscavered from './componts/GetDiscavered';
-import Img1 from './componts/Img1.js';
-import VidioCall from './componts/VidoCall.js';
-import Img2 from './componts/Img2.js';
-import "./componts/Component.css";
+import GetDiscavered from './components/GetDiscavered.js';
+import Img1 from './components/Img1.js';
+import VidioCall from './components/VidoCall.js';
+import Img2 from './components/Img2.js';
+import "./components/Component.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
