@@ -10,7 +10,7 @@ body {
   .header {
     text-align: center;
     padding: 100px 20px;
-    background-color:rgba(236, 238, 243,1); /* لون خلفية العنوان */
+    background-color: rgba(239,242,246,255); /* لون خلفية العنوان */
   }
   
   .header h1 {

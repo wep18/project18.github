@@ -37,9 +37,10 @@ export default function App(){
             <Img2/>
         </div> 
     </>
+
     </Container>
-     <Header/>
-     <Footer/>
+    <Header/>
+    <Footer/>
 </>
   );
-}
+} 
