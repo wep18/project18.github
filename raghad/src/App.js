@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Taskbar from './components/taskbar';
 import Components from "./components/components"
 
 function App() {
   return (
-<Components></Components>
+//<Components></Components>
+<Taskbar></Taskbar>
   );
 }
 
