@@ -1,6 +1,8 @@
 
+export default App;
 import {Col, Row, Container } from "react-bootstrap";
 import "./App.css";
+import FirstPhoto from './component/FirstPhoto';
 import DownloadNow from "./components/DownloadNow";
 import PhonePicture from "./components/PhonePicture";
 import Communities from "./components/Communities";
@@ -17,7 +19,7 @@ export default function App(){
   return(
     <>
     <Container>
-    <>
+    <FirstPhoto/>
     <Row>
     <Col>
     <DownloadNow/>
@@ -35,9 +37,7 @@ export default function App(){
         <div class="row g-4">
             <VidioCall/>
             <Img2/>
-        </div> 
-    </>
-
+        </div>
     </Container>
     <Header/>
     <Footer/>
