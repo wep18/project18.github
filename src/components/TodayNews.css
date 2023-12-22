@@ -1,0 +1,81 @@
+.news {
+  
+  max-width: 15.980rem ;
+  background-color: white;
+  box-shadow: 0 0 5px #00000066;
+  -moz-box-shadow: 0 0 5px #00000066;
+  -webkit-box-shadow: 0 0 5px #00000066;
+  border-radius: 0.5em;
+}
+
+.news  h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem; 
+  font-weight: bold;
+  text-align: start;
+  margin-left:0.65em;
+
+}
+ 
+.news  .card {
+width: auto;
+  border: none; 
+
+}
+
+
+.news  .card-body {
+  padding: 0.5rem;  
+}
+
+.news  .card-title{
+  font-size: 1rem;
+  color: #000; 
+  text-align: start;
+  margin-left:0.5em;
+  margin-right:0.1em;
+  font-weight: bold;
+}
+
+.news  .card-text {
+  font-size: 0.85rem;
+  color: #666; 
+  margin-right: 10rem;
+  text-align: start;
+  margin-left:0.5em;
+}
+
+.news  .btn-primary {
+  display: block;  
+  color: gray;
+  font-size: 0.9rem; /* Adjust font size as needed */
+  text-decoration: none;
+  background-color: white;
+  border-color: white;
+}
+
+
+.point{
+  margin-right: 0.5rem;
+  font-size: 20px;
+  color: gray;
+  margin-top: 0.625rem;
+  margin-left: 0.65em;
+  margin-bottom: 1rem;
+
+
+}
+.emptiness{
+  display: flex;
+ 
+  padding-top: 0.6rem;
+
+}
+
+.view{
+  background-color: white;
+  border-style: none;
+  width:"70%";
+  &:hover{background-color: white !important; color: rgb(30, 28, 28) !important;}
+}
