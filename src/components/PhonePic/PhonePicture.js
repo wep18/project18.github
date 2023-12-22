@@ -1,6 +1,6 @@
 import {Row,Col} from "react-bootstrap";
-import PhoneImage from"../assets/phone.webp";
-import PopupImage from"../assets/phone_notification.webp";
+import PhoneImage from"../../assets/phone.webp";
+import PopupImage from"../../assets/phone_notification.webp";
 import "./PhonePicture.css";
 
 export default function PhonePicture() {

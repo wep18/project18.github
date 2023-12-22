@@ -1,5 +1,5 @@
-import Imgg2 from "../assets/facetime.jpg";
-import "./Component.css"
+import Imgg2 from "../../assets/facetime.jpg";
+import "./VidoCall.css"
 
 const Img2 = () => {
     return(

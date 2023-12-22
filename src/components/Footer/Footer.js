@@ -1,9 +1,9 @@
 import './Footer.css';
-import WebImageLogo from '../assets/web.png';
-import logo from '../assets/windows.png';
-import er from '../assets/apple-logo.png';
-import aa from '../assets/smartphone.png';
-import MegaPhone from '../assets/megaphone.png';
+import WebImageLogo from '../../assets/web.png';
+import logo from '../../assets/windows.png';
+import AppleLogo from '../../assets/apple-logo.png';
+import SmartPhone from '../../assets/smartphone.png';
+import MegaPhone from '../../assets/megaphone.png';
 
 function Footer() {
   return (
@@ -35,12 +35,12 @@ function Footer() {
                     </tr>
                     <tr><td>
                     </td>
-                        <td  className='footer-listings' ><img className='footer-logo' src={er} /> MacOS</td>
+                        <td  className='footer-listings' ><img className='footer-logo' src={AppleLogo} /> MacOS</td>
                         <td  className='footer-listings' >Customer Support</td>
                         <td  className='footer-listings' >Developers</td></tr>
                     <tr>
                         <td></td>
-                        <td  className='footer-listings' ><img className='footer-logo'src={aa}/> iOS&Android</td>
+                        <td  className='footer-listings' ><img className='footer-logo'src={SmartPhone}/> iOS&Android</td>
                         <td  className='footer-listings' >Partners</td>
                         <td  className='footer-listings' >Status</td></tr>
                     <tr>

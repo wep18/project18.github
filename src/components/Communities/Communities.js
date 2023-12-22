@@ -1,7 +1,7 @@
 import {Col,Row,Container} from "react-bootstrap";
-import SmileyImage from "../assets/smiley.webp";
-import NotificationImage from "../assets/notification.webp";
-import LikeImage from "../assets/like.webp";
+import SmileyImage from "../../assets/smiley.webp";
+import NotificationImage from "../../assets/notification.webp";
+import LikeImage from "../../assets/like.webp";
 import "./Communities.css"
 
 export default function Communities(){

@@ -1,5 +1,5 @@
-import Imgg from "../assets/congratulations.jpg";
-import "./Component.css"
+import Imgg from "../../assets/congratulations.jpg";
+import "./VidoCall.css"
 
 const Img1 = () => {
     return(

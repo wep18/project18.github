@@ -1,5 +1,5 @@
 
-import "./Component.css"
+import "./VidoCall.css"
 import ButtonLetsStart from "./ButtonStart";
 const GetDiscavered = () => {
 return(
