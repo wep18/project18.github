@@ -1,0 +1,52 @@
+.FoF{
+    background-color: transparent;
+    border-style: none;
+    margin-top:0.2em;
+}
+
+.follo{
+    height:2.8em;
+    width: 2.8em;
+    border-radius: 360em;
+}
+
+.pfp-photo{
+    height:4em;
+    width:4em;
+    margin-top:-0.4em;
+    border-radius: 360em;
+}
+
+.ctitle {
+  font-size: 17px !important;
+  margin-top: 0.4em !important;
+}
+
+.lgitem{
+    border-style: none !important;
+
+}
+
+
+.listing-group-follows{
+		box-shadow: 0 0 5px #00000066;
+		-moz-box-shadow: 0 0 5px #00000066;
+		-webkit-box-shadow: 0 0 5px #00000066;
+}
+
+
+.followheader{
+		margin-top: 0.3em;
+    margin-left:0.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.profile-pics {
+  width: 5em !important;
+}
+
+.profile-name-and-profession {
+  width: 9em !important;
+  text-align: start;
+}
