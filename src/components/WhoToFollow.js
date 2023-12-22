@@ -1,10 +1,10 @@
-import './App.css';
 import {Col,Container,Row, Button, Card, ListGroup, ListGroupItem} from "react-bootstrap";
 import {db} from "../config/firebase.config";
 import { useEffect, useState } from 'react';
 import { collection, doc, getDocs, setDoc } from 'firebase/firestore';
 import FollowImage from "../assets/notfollowed.png";
 import UnfollowImage from "../assets/followed.png";
+import './WhoToFollow.css'
 
 export default function WhoToFollow(){
 	const [users, setUsers] = useState([])
@@ -78,8 +78,9 @@ export default function WhoToFollow(){
 
 
 	return(
-		<Container className='col-3' style={{marginTop: "1em"}}>
-			<ListGroup className='listing-group-follows'>
+
+			// <ListGroup className='listing-group-follows'>
+			<div>
 				<h2 className='followheader'>Who to follow</h2>
 				{users.map((user,index) => {
 					if (index >= numberOfUsers) {
@@ -87,7 +88,7 @@ export default function WhoToFollow(){
 					}
 					return (
 						<ListGroupItem key={index} className='lgitem'>
-							<Row xxl={3} xl={3} lg={3} md={3} sm={3} xs={1}>
+							 <Row xxl={3} xl={3} lg={3} md={3} sm={3} xs={1}>
 
 								<Col className='profile-pics'>
 									{
@@ -112,7 +113,7 @@ export default function WhoToFollow(){
 										</button>
 									</Col>
 
-								</Row>
+								</Row> 
 							</ListGroupItem>
 					)})}
 
@@ -131,9 +132,8 @@ export default function WhoToFollow(){
 					>
 					{numberOfUsers === users.length ? "Hide" : "View More"}
 				</Button>
-
-			</ListGroup>
-		</Container>
+					</div>
+			// </ListGroup>
 	);
 }
 

@@ -3,7 +3,7 @@ import firebase from 'firebase/app';
 import 'firebase/database'; 
 import React, { useState} from 'react';
 import {setDoc,collection,doc} from "firebase/firestore"
-import db from "../firebase";
+import {db} from "../config/firebase.config";
 const CeleprationInput=(props)=>{
 
 const [celepration1 , setCelepration]=useState('')
