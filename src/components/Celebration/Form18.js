@@ -3,7 +3,7 @@ import Event from './CeleEevent';
 import "./Component.css";
 import React, { useState ,useEffect, Fragment} from 'react';
 import {collection, doc, getDoc} from 'firebase/firestore';
-import db from "../firebase";
+import {db} from "../../config/firebase.config";
 import{getDocs} from "firebase/firestore"
 const FormCelepration = () =>{
     const [CeleprationUse , setCleprationUse ] = useState([]);
@@ -24,7 +24,7 @@ const FormCelepration = () =>{
     }, []);
     return(
         
-        <form className='container'>
+        <form className='container celebration-form'>
         <h1 id="celepration">Celepration</h1>
        
         {CeleprationUse && CeleprationUse[3]?.Name  && CeleprationUse.length>0 && (

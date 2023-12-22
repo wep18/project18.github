@@ -8,7 +8,7 @@ const Event = (props) => {
 </div>
 <div className="col-sm-11 ">
 <div className="dot">
-      <i className="bi bi-three-dots dotsAlign">...</i>
+      <i className="bi bi-three-dots dotsAlign"></i>
 </div>
 <div className="col-sm-10" style={{ display: 'grid' }}>
 <label className="form-label "><b>{props.profname}</b><span>{labelname2}<b id="b2">{labelname3}</b></span></label>

@@ -1,23 +1,16 @@
-import CeleprationInput from "./components/CeleprationInput.js";
+import { Route, Routes } from "react-router-dom";
 import IndexPage from "./components/IndexPage.js";
-import Taskbar from "./components/taskbar.js";
-import {Row,Col,Container} from 'react-bootstrap';
-import WhoToFollow from "./components/WhoToFollow.js";
-import TodayNews from "./components/TodayNews.js";
+import CelebrationPage from "./components/CelebrationPage.js";
+
+
 
 
 export default function App(){
     return(
-        <>
-        <Taskbar/>
-        <Row>
-        <Col>
-        </Col>
-        <Col>
-        <WhoToFollow/>
-        <TodayNews/>
-        </Col>
-        </Row>
-        </>
+        <Routes>
+            <Route path="/" element={ <IndexPage/>}/>
+            <Route path="/celebration" element={ <CelebrationPage/>}/>
+        </Routes>
+       
     );
-} 
+}

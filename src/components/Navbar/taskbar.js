@@ -1,10 +1,10 @@
-import pic1 from "../assets/pic1.png";
+import pic1 from "../../assets/pic1.png";
 import  "./taskbar.css";
-import SearchBar from './Searchbar';
-import pic2 from "../assets/pic2.png";
-import pic3 from "../assets/pic3.png";
-import pic4 from "../assets/pic4.png";
-import pic5 from "../assets/pic5.jpg";
+import SearchBar from '../Searchbar/Searchbar';
+import pic2 from "../../assets/pic2.png";
+import pic3 from "../../assets/pic3.png";
+import pic4 from "../../assets/pic4.png";
+import pic5 from "../../assets/pic5.jpg";
 const Taskbar = () =>{
     return(
         <div className="x">

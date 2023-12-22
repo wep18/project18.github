@@ -5,21 +5,24 @@
 .dotsAlign{
     float:right;
 }
-.form-control{
+.texting-cele-area{
   background: linear-gradient(to bottom right, #d6e4ff, #ffffff, #f7cfd6);
   
 }
 
-  form{
+.celebration-form{
+    background-color: white;
+    margin-top:3em;
     min-width: 200px;
     max-width: 200px;
     margin-left: 300px;
-    margin-right: 300px;
-   padding-left: 70px;
-   padding-right: 70px;
-  border: 1px black solid;
-  border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2) !important;
+    border-radius: 5px;
+    margin-bottom:2em;
   }
+
   span{
     color: grey;
     font-size: 12px;
@@ -40,16 +43,16 @@
 
   }
   #ImgProfile{
-    width:60px; 
-    height:60px; 
+    width:55px; 
+    height:55px; 
     border-radius:50%; 
-    
   }
   .col-sm-2 {
     display: flex;
     justify-content: right;
     align-items: right;
   }
+
   #celepration{
     padding-bottom: 15px;
 

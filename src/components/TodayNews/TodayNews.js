@@ -1,6 +1,6 @@
 import './TodayNews.css';
 import { Button, Card } from "react-bootstrap";
-import {db} from "../config/firebase.config";
+import {db} from "../../config/firebase.config";
 import { collection, getDocs } from 'firebase/firestore';
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
