@@ -1,0 +1,35 @@
+.pic1{
+    width:40px;
+    height: 40px;
+    
+}
+
+.x{
+    background-color: white;
+    display:flex;
+}
+
+.dropdown{
+    border:none;
+    background-color: white;
+    color: #747474;
+    font-weight: 600;
+    font-size: 18px;
+}
+.pic2{
+    margin-right:5em;
+    width:35px;
+    height: 35px;
+}
+.z{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.v{
+    width:40%;
+}
+
+.mega{
+    margin-left:5em !important;
+}
