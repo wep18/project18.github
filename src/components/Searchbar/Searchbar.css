@@ -54,7 +54,10 @@ body{
     border:none;
 }
 .z{
-    margin-top: 10px;
-    margin-left: 10px;
+    
+    margin-left: 20px;
+   height: 30px;
+    display:flex;
+    padding: .7 rem !important;
     
 }

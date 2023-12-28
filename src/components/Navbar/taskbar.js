@@ -9,6 +9,7 @@ const Taskbar = () =>{
     return(
         <div className="x">
             <img className ="pic1 z mega" src={pic1} alt="app icon"/>
+            <div className="w"></div>
             <SearchBar className = "pic1"></SearchBar>
             <div className="v"></div>
             <select className = "dropdown z">
